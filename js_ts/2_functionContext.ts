@@ -13,7 +13,7 @@ const Person = {
     return this.name;
   },
 
-  arrowName: test => {
+  arrowName: (test: string) => {
     console.log(arguments, this, test);
     return this.name;
   },
